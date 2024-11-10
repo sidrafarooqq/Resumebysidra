@@ -1,0 +1,63 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.resume {
+  margin-left: 20%;
+  width: 280px;
+  padding: 20px;
+  background-color: rgb(195, 201, 199);
+  padding-top: 10px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 200px; 
+  width: 200px; 
+}
+
+.profile-pic {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-left: 40%;
+}
+
+.cv{
+margin-left: 41.5%;
+margin-top: -61%;
+width: 500px;
+padding: 30px;
+background-color: rgb(225, 235, 231);
+}
+
+.contact-icons {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 2;
+}
+
+.contact-icons a {
+text-decoration: none;
+color: #555353;
+display: flex;
+align-items: center;
+margin: 10px 0;
+}
+
+.contact-icons i {
+margin-right: 8px; 
+font-size: 18px;   
+}
+
+.contact-icons a:hover {
+color: #020202;  
+}
+
+.hidden{
+  display: none;
+}
